@@ -2,12 +2,14 @@ package Week02;
 
 public class VeriableUse {
     public static void main(String[] args) {
-        int i;
-        int i1;
-        int i2;
-        int i3;
-        int i4;
-        int i5;
-        int i6;
+
+        int intNumber         = 5;         //tam sayi
+        float floatNumber     = 2.356f ;   //ondalik Sayi
+        long longNumber       = 10000;     //int in buyugu
+        boolean booleanNumber = true;     //(0-1) Karsilastirma
+        double doubleNumber   = 2.654;    //buyuk ondalik sayilar
+        char charNumber       = 'c';      //karakter
+
+
     }
 }
