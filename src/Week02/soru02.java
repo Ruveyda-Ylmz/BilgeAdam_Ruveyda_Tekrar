@@ -9,12 +9,19 @@ public class soru02 {
         // bir fazlasının toplamını ekrana yazdıran algoritama.
 
         int sayi ,
-                toplam,
-                deger;
+            toplam=0;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen bir sayi giriniz: ");
         sayi = scanner.nextInt();
+
+        for (int i=1 ; i<=sayi ; i++){
+            toplam=toplam +(i+1);
+        }
+        System.out.println("kulanıcının girdiği sayı: "+sayi+"\n"+
+                           "toplam deger: "+toplam);
+
+
 
     }
 }
